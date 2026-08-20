@@ -1,0 +1,183 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build/Production files
+dist/
+build/
+*.build/
+out/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.storybook-out
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+logs/
+*.log
+
+# PM2 files
+.pm2
+
+# MongoDB data
+data/
+dump/
+
+# Upload directories
+uploads/
+uploads/*
+
+# Image uploads
+images/
+public/images/
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Server specific
+server/.env
+server/config/.env
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+
+# Test files
+test/
+__tests__/
+*.test.js
+*.spec.js
+
+# Session files
+sessions/
+session-store/
+
+# Redis dumps
+dump.rdb
+
+# Database files
+*.sqlite
+*.sqlite3
+
+# Deployment files
+deploy/
+deploy.sh
+
+# Local development files
+.env.development
+.env.test
+.env.staging
+
+# Package lock files (optional - comment out if you want to track)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Serverless files
+.serverless/
+
+# Firebase
+.firebase/
+.firebaserc
+
+# AWS
+.aws/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
+
+# Docker
+docker-compose.override.yml
+Dockerfile.local
+
+# Documentation
+docs/_build/
+docs/api/
+
+# Generated files
+generated/
